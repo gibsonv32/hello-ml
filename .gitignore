@@ -1,8 +1,16 @@
+# OS / editor
 .DS_Store
+.vscode/
+# Python
 __pycache__/
-.venv/
-.ipynb_checkpoints/
 *.pyc
+.ipynb_checkpoints/
+# Data (keep small samples only)
 data/raw/
 data/interim/
-
+# Envs (never commit)
+.venv/
+ENV/
+# Conda
+*.conda
+*.lock
